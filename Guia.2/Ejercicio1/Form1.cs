@@ -16,5 +16,12 @@ namespace Ejercicio1
         {
             InitializeComponent();
         }
+
+        private void btnAgregar_Click(object sender, EventArgs e)
+        {
+            Form1 ventana = new Form1();
+            
+
+        }
     }
 }

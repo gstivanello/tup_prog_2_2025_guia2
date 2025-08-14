@@ -16,7 +16,10 @@ namespace Ejercicio1
             this.DNI = dni;
             this.Nombre = nombre;
         }
-
+        public string Describir()
+        {
+            return $"{DNI} - {Nombre}";
+        }
 
     }
 }
